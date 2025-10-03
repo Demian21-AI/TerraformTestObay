@@ -32,7 +32,7 @@ echo "Tenant: $Tenant"
 
 # Authenticate using Service Principle
 az login --service-principal \
-  --username $AppId \
+  --username "$AppId" \
   --password $Password \
   --tenant $Tenant
 ```
