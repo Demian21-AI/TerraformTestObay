@@ -69,4 +69,5 @@ gh secret set ARM_CLIENT_ID --body $AppId
 gh secret set ARM_CLIENT_SECRET --body $Password
 gh secret set ARM_TENANT_ID --body $Tenant
 gh secret set ARM_SUBSCRIPTION_ID --body $subscriptionId
-```
+
+### test
